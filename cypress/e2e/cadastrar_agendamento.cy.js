@@ -32,6 +32,7 @@ describe("Cadastrar Reservas", () => {
                 expect(resposta.body.booking.bookingdates.checkin).to.equal("2024-01-01");
                 expect(resposta.body.booking.bookingdates.checkout).to.equal("2024-01-05");
                 expect(resposta.body.booking.additionalneeds).to.equal("Breakfast");
-        });
-     });
+            });
+    });
 });
+
